@@ -11,7 +11,7 @@ export async function up(knex: knex) {
             .references('id')
             .inTable('users')
             .onUpdate('CASCADE')
-            .onDelete('CASCADE')
+            .onDelete('CASCADE') 
     })
 }
 
